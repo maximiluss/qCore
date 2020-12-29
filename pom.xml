@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<name>qCore</name>
 	<description>qCore is a core plugin for developer and for big network made by IonDev.</description>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<url>https://github.com/maximiluss/qCore</url>
 	<groupId>com.github.maximiluss</groupId>
 	<artifactId>QCore</artifactId>
@@ -56,23 +56,11 @@
 							<goal>shade</goal>
 						</goals>
 						<configuration>
-							<outputFile>C:/Users/Megaport/Documents/Dév/Lysaria/Workspace
-								Compile/${project.artifactId}.jar</outputFile>
+							<outputFile>C:/Users/Megaport/Documents/Dév/Lysaria/Workspace Compile/${project.artifactId}.jar</outputFile>
 							<minimizeJar>true</minimizeJar>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.sonatype.plugins</groupId>
-				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.7</version>
-				<extensions>true</extensions>
-				<configuration>
-					<serverId>ossrh</serverId>
-					<nexusUrl>https://oss.sonatype.org</nexusUrl>
-					<autoReleaseAfterClose>true</autoReleaseAfterClose>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

@@ -5,22 +5,33 @@
 	<name>qCore</name>
 	<description>qCore is a core plugin for developer and for big network made by IonDev.</description>
 	<version>0.0.1-SNAPSHOT</version>
-	<url>https://ion-dev.fr</url>
+	<url>https://github.com/maximiluss/qCore</url>
 	<groupId>fr.iondev.qcore</groupId>
 	<artifactId>QCore</artifactId>
 
 	<licenses>
 		<license>
-			<name>Apache License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	
+	<developers>
+		<developer>
+			<name>Estéban Piecourt</name>
+			<email>esteban.piecourt@gmail.com</email>
+			<organization>fr.iondev.qcore</organization>
+			<organizationUrl>https://github.com/maximiluss/qCore</organizationUrl>
+		</developer>
+	</developers>
 
 	<scm>
-		<url>https://github.com/maximiluss/qCore.git</url>
+		<connection>scm:git:git://github.com/maximiluss/qCore.git</connection>
+		<developerConnection>scm:git:ssh://github.com:maximiluss/qCore.git</developerConnection>
+		<url>https://github.com/maximiluss/qCore</url>
 	</scm>
-	
+
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>

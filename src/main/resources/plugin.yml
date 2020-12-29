@@ -1,0 +1,12 @@
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+author: IonDev
+website: ${project.url}
+main: ${project.groupId}.${project.artifactId}
+depend: [Vault]
+softdepend: [ProtocolLib]
+commands:
+ reload:
+  aliases: [rl]
+ sr:

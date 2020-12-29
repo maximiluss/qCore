@@ -1,0 +1,33 @@
+            ##################
+            #     qCore      #
+            ##################
+qcore:
+  prefix: "&e&lq&6&lCore &f— &e"
+  max_player: 750
+  verbose: true
+  sql: true
+  bungee: true
+  mcp: true
+
+            ##################
+            #      SQL       #
+            ##################
+    
+sql:
+  urlbase: "jdbc:mysql://"
+  host: "localhost"
+  database: "qcore_general"
+  user: "localuser"
+  pass: "Eglantine29."
+  
+            ##################
+            #    Commands    #
+            ##################
+#{PREFIX} / {SYNTAXE} / {DELAY}
+
+commands:
+  argumentError: "{PREFIX} &cCette argument n'existe pas !"
+  syntaxError: "{PREFIX} &cVous devez utilisez la commande comme ceci&8: &a{SYNTAXE}."
+  permissionError: "{PREFIX} &cVous n'avez pas la permission de faire ceci !"
+  consolNoUseError: "{PREFIX} &cVous devez être un joueur pour executer cette commande."
+  delayError: "{PREFIX} &6Vous avez encore &e{DELAY} &6a attendre !"

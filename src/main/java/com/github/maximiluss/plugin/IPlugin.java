@@ -14,6 +14,8 @@ import com.github.maximiluss.config.Setupable;
 import com.github.maximiluss.player.qCorePlayer;
 import com.google.common.io.Files;
 
+import net.md_5.bungee.api.ChatColor;
+
 public abstract class IPlugin extends JavaPlugin {
 
 	private FileConfiguration config;
@@ -72,5 +74,9 @@ public abstract class IPlugin extends JavaPlugin {
 	public abstract void logWarn(Object o);
 
 	public abstract void logErr(Object o);
+
+	public void preEnable() {
+		log(getConsolPrefix() + "Enabling " + ChatColor.YELLOW + getDescription().getVersion());
+	}
 
 }

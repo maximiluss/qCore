@@ -6,7 +6,7 @@
 
 	<name>qCore</name>
 	<description>qCore is a core plugin for developer and for big network made by IonDev.</description>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<url>https://github.com/maximiluss/qCore</url>
 	<groupId>com.github.maximiluss</groupId>
 	<artifactId>QCore</artifactId>

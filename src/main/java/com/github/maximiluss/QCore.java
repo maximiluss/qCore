@@ -182,7 +182,7 @@ public class QCore extends IPlugin {
 	public void preEnable() {
 		preEnable();
 	}
-	
+
 	@Override
 	public void onEnable() {
 		// Instance QCore
